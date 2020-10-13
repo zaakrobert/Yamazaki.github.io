@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ABC{
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            /* width: 100vw; */
+        }
+        .AAA{
+            position: absolute;
+            height:675px;
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 100vw;
+            position: relative;
+        }
+        p{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        .AAA:first-child{
+            background-image: url("/img/monthly products/1-チョコケーキブレッドB.jpg");
+        }
+        .AAA:nth-child(2){
+            background-image: url("/img/monthly products/2-卵たっぷりたまごぱんB.jpg");
+        }
+        .AAA:last-child{
+            background-image: url("/img/monthly products/3-チョコ好きのためのチョコロールB.jpg");
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="ABC">
+        <div class="AAA thumbnail">
+            <p>你好123</p>
+        </div>
+        <div class="AAA thumbnail">
+            <p>你好456</p>
+        </div>
+        <div class="AAA thumbnail">
+            <p>你好789</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.1/dist/simpleParallax.min.js"></script>
+
+    <script>
+        var image = document.getElementsByClassName('thumbnail');
+        new simpleParallax(image, {
+            scale: 1.2
+        });
+    </script>
+</body>
+</html>

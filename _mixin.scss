@@ -1,0 +1,21 @@
+// @mixin hdLogoST(){
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate( - 50%, - 50%);
+//     z-index: 1;
+// }
+
+@mixin Gapline() {
+    width: 100vw;
+    height: 0.1vh;
+    background-color: $yamazakired;
+}
+
+@mixin GoogleFonts {
+    font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+}
+
+@mixin BreadBackgroundStyle {
+    position: absolute;
+}

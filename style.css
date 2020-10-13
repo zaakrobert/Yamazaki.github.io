@@ -1,0 +1,1197 @@
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  height: 2000px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header .banner {
+  width: 100%;
+}
+
+body header .banner .hdBackground {
+  width: 100%;
+  height: 1080px;
+  background-image: url(/img/header/country-white-bread2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+@media (max-width: 1199.98px) {
+  body header .banner .hdBackground {
+    height: 768px;
+  }
+}
+
+body header .banner .hdBackground .hdLogo {
+  width: 28%;
+  -webkit-box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.75);
+  position: absolute;
+  margin-top: 22%;
+  z-index: 1;
+}
+
+body header .banner .hdBackground .hdFresh {
+  width: 10%;
+  position: absolute;
+  margin-top: 16%;
+  left: 66%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+body header .banner .hdBackground .hdInstagramIcon {
+  width: 4%;
+  position: absolute;
+  top: 88%;
+  left: 76%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+body main {
+  position: relative;
+}
+
+body main #BreadContainer {
+  width: 100%;
+  height: 101%;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+}
+
+body main #BreadContainer .BreadBackground {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: bisque;
+  background-position: center;
+  background-size: cover;
+}
+
+body main #BreadContainer .BreadBackground .BreadBackgroundEach {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main #BreadContainer .BreadBackground .BreadBackgroundEach img {
+  width: 80%;
+}
+
+@media (max-width: 1365.98px) {
+  body main #BreadContainer .BreadBackground .BreadBackgroundEach img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  body main #BreadContainer .BreadBackground .BreadBackgroundEach img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body main #BreadContainer .BreadBackground .BreadBackgroundEach img {
+    width: 20%;
+  }
+}
+
+body main #BreadContainer .BreadBackground .effect_box1 {
+  position: absolute;
+  top: 11.11%;
+  left: 0%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box2 {
+  position: absolute;
+  top: 60.83%;
+  left: 0%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box3 {
+  position: absolute;
+  top: 27.96%;
+  left: 8.28%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box4 {
+  position: absolute;
+  top: 80.46%;
+  left: 7.18%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box5 {
+  position: absolute;
+  top: 6.29%;
+  left: 15.78%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box6 {
+  position: absolute;
+  top: 44.72%;
+  left: 13.85%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box7 {
+  position: absolute;
+  top: 70%;
+  left: 18.17%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box8 {
+  position: absolute;
+  top: 22.12%;
+  left: 32.91%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box9 {
+  position: absolute;
+  top: 61.01%;
+  left: 33.85%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box10 {
+  position: absolute;
+  top: 0%;
+  left: 40.83%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box11 {
+  position: absolute;
+  top: 85.09%;
+  left: 39.84%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box12 {
+  position: absolute;
+  top: 38.05%;
+  left: 48.02%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box13 {
+  position: absolute;
+  top: 10.64%;
+  left: 54.32%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box14 {
+  position: absolute;
+  top: 69.62%;
+  left: 56.35%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box15 {
+  position: absolute;
+  top: 48.1%;
+  left: 67.3%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box16 {
+  position: absolute;
+  top: 26.75%;
+  left: 76.3%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box17 {
+  position: absolute;
+  top: 72.03%;
+  left: 76.3%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box18 {
+  position: absolute;
+  top: 14.9%;
+  left: 88.12%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box19 {
+  position: absolute;
+  top: 47.59%;
+  left: 86.14%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box20 {
+  position: absolute;
+  top: 3.5%;
+  right: 2%;
+}
+
+body main #BreadContainer .BreadBackground .effect_box21 {
+  position: absolute;
+  top: 71.48%;
+  right: 0%;
+}
+
+body main .Navbar {
+  width: 100vw;
+  background-image: url(/img/NavBar/NavBar-wheat-white.png);
+}
+
+body main .Navbar .container {
+  height: 176px;
+}
+
+@media (max-width: 1199.98px) {
+  body main .Navbar .container .NavBarYamazakiLogo {
+    width: 100%;
+  }
+}
+
+body main .Navbar .container .NavBarBtns {
+  position: relative;
+}
+
+body main .Navbar .container .NavBarBtns .navbtn {
+  background-color: #ec1b24;
+  color: white;
+  text-align: center;
+  font-family: 'Carrois Gothic', sans-serif;
+  border-radius: 10px;
+  margin: 0 22px;
+  padding: 0;
+  text-decoration: none;
+  font-size: medium;
+}
+
+body main .Navbar .container .NavBarBtns .navbtn .navbtnChi {
+  display: none;
+}
+
+body main .Navbar .container .NavBarBtns .navbtn :hover {
+  background-color: orange;
+  border-radius: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body main .Navbar .container .NavBarBtns .navbtn :hover .navbtnEng {
+  display: none !important;
+}
+
+body main .Navbar .container .NavBarBtns .navbtn :hover .navbtnChi {
+  display: block !important;
+}
+
+body main .Concept {
+  padding-bottom: 100px;
+  position: relative;
+}
+
+body main .Concept .FakeAnchor {
+  position: absolute;
+  height: 176px;
+  top: -176px;
+}
+
+body main .Concept .ConceptStyle .ConceptStyleTitle {
+  padding-bottom: 42px;
+  text-align: center;
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+}
+
+body main .Concept .ConceptStyle .ConceptStyleText {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+}
+
+body main .Concept .presidentTEXT .presidentTEXTbtn .btn-primary {
+  background-color: #ec1b24;
+  border: 1px solid wheat;
+  -webkit-animation-name: MyWOW;
+          animation-name: MyWOW;
+  visibility: visible;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes MyWOW {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  75% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  82.5% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  85% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  87.5% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  91.25% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  93.75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+@keyframes MyWOW {
+  0% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  75% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  82.5% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  85% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  87.5% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  91.25% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  93.75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+
+body main .Concept .presidentTEXT .presidentTEXTbtn .btn-primary.focus, body main .Concept .presidentTEXT .presidentTEXTbtn .btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem wheat;
+          box-shadow: 0 0 0 0.2rem wheat;
+}
+
+body main .Concept .presidentTEXT .presidentTEXTbtn .modal .modal-dialog .modal-content {
+  border: 2px solid wheat;
+}
+
+body main .Concept .presidentTEXT .presidentTEXTbtn .modal .modal-dialog .modal-content .modal-header {
+  border-bottom: 2px solid wheat;
+}
+
+body main .Concept .presidentTEXT .presidentTEXTbtn .modal .modal-dialog .modal-content .modal-header img {
+  width: 100px;
+}
+
+body main .Concept .presidentTEXT .presidentTEXTbtn .modal .modal-dialog .modal-content .modal-header .modal-title {
+  margin-left: 40px;
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain {
+  height: 260px;
+  position: relative;
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG {
+  position: relative;
+  width: 262.5px;
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG img {
+  width: 100%;
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG::after {
+  display: none;
+  content: " ";
+  background-image: url(img/concept/AboutUsMissionAndVision-white.png);
+  background-size: 730px 254px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  z-index: 3;
+  top: -70;
+  left: -240px;
+  -webkit-transition: width .5s ease, background-image .5s ease, left .5s ease;
+  transition: width .5s ease, background-image .5s ease, left .5s ease;
+}
+
+@media (max-width: 1199.98px) {
+  body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG::after {
+    background-size: 430px 150px;
+    top: -70;
+    left: -80px;
+  }
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG:hover::after {
+  display: block;
+  width: 730px;
+  height: 254px;
+}
+
+@media (max-width: 1199.98px) {
+  body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG:hover::after {
+    width: 430px;
+    height: 150px;
+  }
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiarySub {
+  text-align: center;
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiarySub .col {
+  margin: 20px 0;
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiarySub .col img {
+  width: 75%;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiarySub .col img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+body main .Concept .ConceptSubsidiary .ConceptSubsidiarySub .col .img-cat {
+  width: 50%;
+}
+
+body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item {
+  position: relative;
+}
+
+body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .thumbnailR, body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .thumbnailL {
+  width: 100%;
+}
+
+body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .MonthlyNew3Item-text {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  width: 315px;
+  color: white;
+  background-color: rgba(206, 27, 40, 0.6);
+  border-radius: 11px;
+  padding: 24px;
+  position: absolute;
+  top: 10%;
+  left: 66%;
+}
+
+body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .MonthlyNew3Item-text h2 {
+  font-weight: 400;
+  font-size: 26pt;
+}
+
+body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .MonthlyNew3Item-text p {
+  font-size: 18pt;
+  margin: 0;
+  font-weight: lighter;
+}
+
+@media (max-width: 991.98px) {
+  body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .MonthlyNew3Item-text {
+    width: 216px;
+  }
+  body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .MonthlyNew3Item-text h2 {
+    font-size: 12pt;
+  }
+  body main .MonthlyNew .MonthlyNew3ItemsPC-sec2 .MonthlyNew3Item .MonthlyNew3Item-text p {
+    font-size: 8pt;
+  }
+}
+
+body main .MonthlyNew .MonthlyNewTitle {
+  color: #ec1b24;
+  margin-left: 6px;
+  border-left: 2px solid #ec1b24;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
+body main .MonthlyNew .swiper-container {
+  width: 100%;
+  height: 225px;
+}
+
+body main .MonthlyNew .swiper-container .swiper-slide {
+  position: relative;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body main .MonthlyNew .swiper-container .swiper-slide img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+}
+
+body main .MonthlyNew .swiper-container .swiper-slide .MonthlyNew2Text {
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+  margin: 2%;
+  padding: 10px;
+  border-radius: 4px;
+  width: 26%;
+  text-align: justify;
+}
+
+body main .MonthlyNew .swiper-container .swiper-slide .MonthlyNew2Text h6 {
+  color: black;
+}
+
+body main .MonthlyNew .swiper-container .swiper-slide .MonthlyNew2Text p {
+  color: black;
+  font-size: x-small;
+  margin: 0;
+}
+
+body main .MonthlyNew .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  background: #ec1b24;
+  opacity: .6;
+}
+
+body main .MonthlyNew .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+  background: #ec1b24;
+  opacity: 1;
+}
+
+body main .swiper-gapline {
+  width: 100vw;
+  height: 0.1vh;
+  background-color: #ec1b24;
+  margin-top: 12px;
+  opacity: 0.6;
+}
+
+body main .Comingsoon .ComingsoonPC {
+  padding-bottom: 100px;
+}
+
+body main .Comingsoon .ComingsoonPC .ComingsoonSec1 .ComingsoonTitlePC {
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+}
+
+body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-L .ComingsoonSec2-IMG {
+  width: 100%;
+}
+
+body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-R {
+  opacity: 0.9;
+}
+
+body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-R .ComingsoonSec2-Package {
+  width: 80%;
+}
+
+body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-R .ComingsoonSec2-Text {
+  background-color: #ec1b24;
+  color: white;
+  border-radius: 11px;
+  padding: 6% 10%;
+  text-align: justify;
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+}
+
+@media (max-width: 1199.98px) {
+  body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-R .ComingsoonSec2-Text {
+    padding: 6% 20%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-R .ComingsoonSec2-Text h5 {
+    font-size: 12pt;
+  }
+  body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-R .ComingsoonSec2-Text p {
+    font-size: 8pt;
+  }
+}
+
+body main .Comingsoon .ComingsoonPC .ComingsoonSec2 .ComingsoonSec2-R .ComingsoonSec2-Text p {
+  margin-bottom: unset;
+  font-size: smaller;
+}
+
+body main .Comingsoon .ComingsoonTitleMobile {
+  color: #ec1b24;
+  margin-left: 6px;
+  border-left: 2px solid #ec1b24;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
+body main .Comingsoon .ComingsoonMobile {
+  max-width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+body main .Comingsoon .ComingsoonMobile .row {
+  margin-left: unset;
+  margin-right: unset;
+}
+
+body main .Comingsoon .ComingsoonMobile .row .col-8 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body main .Comingsoon .ComingsoonMobile .row .col-8 .ComingsoonLeft {
+  width: 100%;
+}
+
+body main .Comingsoon .ComingsoonMobile .row .col-4 {
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: orange;
+  opacity: 0.9;
+}
+
+body main .Comingsoon .ComingsoonMobile .row .col-4 .ComeingsoonRightPackImg {
+  padding: 16%;
+  width: 100%;
+}
+
+body main .Comingsoon .ComingsoonMobile .row .col-4 .ComingsoonRightText {
+  color: white;
+  margin-top: 16px;
+  font-size: 10px;
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+}
+
+body main .gapline {
+  width: 100vw;
+  height: 0.1vh;
+  background-color: #ec1b24;
+}
+
+body main .Hot .HotPC {
+  padding-bottom: 100px;
+}
+
+body main .Hot .HotPC .HotTitle {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+body main .Hot .HotPC .HotContent .col-4 .HotIMG img {
+  -webkit-box-shadow: 10px 10px 12px 1px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 12px 1px rgba(0, 0, 0, 0.75);
+}
+
+body main .Hot .HotPC .HotContent .col-4 .HotDetail {
+  width: 80%;
+  background-color: #ec1b24;
+  padding: 6%;
+}
+
+body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailText {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  color: white;
+  padding: 10% 10%;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailText {
+    padding: 10% 2%;
+  }
+  body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailText h4 {
+    font-size: 12pt;
+  }
+  body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailText p {
+    font-size: 8pt;
+  }
+}
+
+body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailImg .HotDetailCircle {
+  width: 100%;
+  position: relative;
+}
+
+body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailImg .HotDetailCircle .HotWhiteCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailImg .HotDetailCircle img {
+  position: absolute;
+  z-index: 1;
+}
+
+body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailImg .HotDetailCircle img:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+@media (max-width: 991.98px) {
+  body main .Hot .HotPC .HotContent .col-4 .HotDetail .HotDetailImg .HotDetailCircle .HotWhiteCircle {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+body main .Hot .HotTitleMobile {
+  color: #ec1b24;
+  margin-left: 6px;
+  border-left: 2px solid #ec1b24;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
+body main .Hot .HotTextMobile .row {
+  background-image: url(/img/background/AllPageBackgroundImage-PNG.png);
+  background-size: contain;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body main .Hot .HotTextMobile .row .col {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+
+body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-wrapper .swiper-button-next {
+  color: #ec1b24;
+}
+
+body main .Hot .HotTextMobile .row .col-8 {
+  width: 100%;
+  background-color: rgba(236, 27, 36, 0.56);
+}
+
+body main .Hot .HotTextMobile .row .col-8 .swiper2-container .swiper-wrapper .swiper-slide .HotText {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .Hot .HotTextMobile .row .col-8 .swiper2-container .swiper-wrapper .swiper-slide .HotText h6 {
+  padding-top: 8px;
+}
+
+body main .Hot .HotTextMobile .row .col-8 .swiper2-container .swiper-wrapper .swiper-slide .HotText p {
+  width: 66%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .Hot .HotTextMobile .row .col-8 .swiper2-container .swiper-wrapper .swiper-slide .HotWhiteCircle {
+  width: 260px;
+  height: 260px;
+  background-color: wheat;
+  border-radius: 50%;
+}
+
+body main .Hot .HotTextMobile .row .col-8 .swiper2-container .swiper-wrapper .swiper-slide .HotWhiteCircle img {
+  width: 106%;
+}
+
+body main .Collection {
+  padding-top: 168px;
+  padding-bottom: 100px;
+  background-image: url(/img/Collection/去背/HeightWheatFarming-opacity0.8.png);
+  background-color: white;
+}
+
+body main .Collection .CollectionTitle {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding-bottom: 66px;
+}
+
+body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem {
+  height: 420px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem {
+    height: 260px;
+  }
+}
+
+body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionContentName {
+  padding-bottom: 10%;
+}
+
+@media (max-width: 991.98px) {
+  body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionContentName {
+    padding-bottom: 2%;
+  }
+}
+
+body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionContentName img {
+  width: 80%;
+  margin-top: 0;
+  position: absolute;
+  top: -2.5%;
+  left: 10%;
+}
+
+@media (max-width: 991.98px) {
+  body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionContentName img {
+    top: -1.36%;
+  }
+}
+
+body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionContentName h4 {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionContentName h4 {
+    font-size: 12pt;
+  }
+}
+
+body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionIMG {
+  margin-top: 20px;
+  width: 80%;
+}
+
+body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionIMG:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem {
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 991.98px) {
+  body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem {
+    height: 186px;
+  }
+}
+
+body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionContentName {
+  padding-bottom: 10%;
+}
+
+body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionContentName img {
+  width: 80%;
+  margin-top: 0;
+  position: absolute;
+  top: -2.5%;
+  left: 10%;
+}
+
+@media (max-width: 991.98px) {
+  body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionContentName img {
+    top: -1.36%;
+  }
+}
+
+body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionContentName h4 {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+@media (max-width: 991.98px) {
+  body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionContentName h4 {
+    font-size: 12pt;
+  }
+}
+
+body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionIMG {
+  margin-top: 20px;
+  width: 80%;
+}
+
+body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionIMG:hover {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+body main .FactoryTour {
+  padding-top: 168px;
+  padding-bottom: 100px;
+}
+
+body main .FactoryTour .FactoryTourTitle {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding-bottom: 66px;
+}
+
+body main .FactoryTour .FactoryTourCards .FactoryTourCard {
+  height: 300px;
+  -webkit-box-shadow: 2px, 3px, 10px #666;
+          box-shadow: 2px, 3px, 10px #666;
+  text-align: center;
+  position: relative;
+}
+
+@media (max-width: 991.98px) {
+  body main .FactoryTour .FactoryTourCards .FactoryTourCard {
+    height: 168px;
+  }
+}
+
+body main .FactoryTour .FactoryTourCards .FactoryTourCard img {
+  width: 100%;
+}
+
+body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardTitle {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding: 2% 0;
+  background-color: #ec1b24;
+  color: white;
+}
+
+@media (max-width: 991.98px) {
+  body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardTitle {
+    font-size: 8pt;
+  }
+}
+
+body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardText {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  display: block;
+  background: #f5f5f5;
+  text-align: justify;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  margin: 0 15px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  max-height: 0;
+  overflow: hidden;
+}
+
+body main .FactoryTour .FactoryTourCards .FactoryTourCard:hover .FactoryCardText {
+  max-height: 260px;
+  padding: 10px;
+  border-bottom: 1px solid #ec1b24;
+  border-left: 1px solid #ec1b24;
+  border-right: 1px solid #ec1b24;
+}
+
+@media (max-width: 1199.98px) {
+  body main .FactoryTour .FactoryTourCards .FactoryTourCard:hover .FactoryCardText {
+    font-size: small;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body main .FactoryTour .FactoryTourCards .FactoryTourCard:hover .FactoryCardText {
+    font-size: x-small;
+  }
+}
+
+body main .Safety {
+  padding-top: 168px;
+  padding-bottom: 100px;
+}
+
+body main .Safety .SafetyTitle {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding-bottom: 66px;
+}
+
+body main .Safety .SafetyContent .SafetyText {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding: 4% 10%;
+  text-align: justify;
+}
+
+body main .Contact {
+  padding-top: 168px;
+  padding-bottom: 66px;
+}
+
+body main .Contact .ContactTitle {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding-bottom: 26px;
+}
+
+body main .Contact .ContactContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .Contact .ContactContent .ContactHeadOffice {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  color: #ec1b24;
+  text-align: center;
+}
+
+body main .Contact .ContactContent .ContactLocationsTitle {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  padding: 38px 0 26px 0;
+  width: 100%;
+  text-align: center;
+}
+
+body main .Contact .ContactContent .ContactLocations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .Contact .ContactContent .ContactLocations .ContactLocation {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  color: #ec1b24;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .Contact .ContactContent .ContactLocations .ContactLocation img {
+  width: 29px;
+  height: 27px;
+}
+
+body main .Contact .ContactContent .ContactLocations .ContactLocation p {
+  line-height: 27px;
+  margin-left: 10px;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body footer .Copyright {
+  position: relative;
+  height: 20px;
+  width: 100vw;
+}
+
+body footer .Copyright p {
+  font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+  font-size: xx-small;
+  font-weight: lighter;
+  position: absolute;
+  right: 0;
+}
+
+body footer .ContactMap iframe {
+  width: 100%;
+  height: 360px;
+}
+/*# sourceMappingURL=style.css.map */
