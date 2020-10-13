@@ -17,7 +17,7 @@ body header .banner {
 body header .banner .hdBackground {
   width: 100%;
   height: 1080px;
-  background-image: url(img/header/country-white-bread2.jpg);
+  background-image: url("img/header/country-white-bread2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -256,7 +256,7 @@ body main #BreadContainer .BreadBackground .effect_box21 {
 
 body main .Navbar {
   width: 100vw;
-  background-image: url(img/NavBar/NavBar-wheat-white.png);
+  background-image: url("img/NavBar/NavBar-wheat-white.png");
 }
 
 body main .Navbar .container {
@@ -447,7 +447,7 @@ body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG img {
 body main .Concept .ConceptSubsidiary .ConceptSubsidiaryMain .ConceptIMG::after {
   display: none;
   content: " ";
-  background-image: url(img/concept/AboutUsMissionAndVision-white.png);
+  background-image: url("img/concept/AboutUsMissionAndVision-white.png");
   background-size: 730px 254px;
   width: 0;
   height: 0;
@@ -803,7 +803,7 @@ body main .Hot .HotTitleMobile {
 }
 
 body main .Hot .HotTextMobile .row {
-  background-image: url(img/background/AllPageBackgroundImage-PNG.png);
+  background-image: url("img/background/AllPageBackgroundImage-PNG.png");
   background-size: contain;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -871,7 +871,7 @@ body main .Hot .HotTextMobile .row .col-8 .swiper2-container .swiper-wrapper .sw
 body main .Collection {
   padding-top: 168px;
   padding-bottom: 100px;
-  background-image: url(img/Collection/去背/HeightWheatFarming-opacity0.8.png);
+  background-image: url("img/Collection/去背/HeightWheatFarming-opacity0.8.png");
   background-color: white;
 }
 
