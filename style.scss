@@ -20,7 +20,7 @@ body{
             .hdBackground{
                 width: 100%;
                 height: 1080px;
-                background-image: url(img/header/country-white-bread2.jpg);
+                background-image: url("img/header/country-white-bread2.jpg");
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -230,7 +230,7 @@ body{
         .Navbar{
 
             width: 100vw;
-            background-image: url(img/NavBar/NavBar-wheat-white.png);
+            background-image: url("img/NavBar/NavBar-wheat-white.png");
 
             .container{
                 height: 176px;
@@ -384,9 +384,9 @@ body{
                             display: none;
                             // display: block;
                             content: " ";
-                            background-image: url(img/concept/AboutUsMissionAndVision-white.png);
+                            background-image: url("img/concept/AboutUsMissionAndVision-white.png");
                             background-size: 730px 254px;
-                            // background: url(img/concept/AboutUsMissionAndVision.png) no-repeat top left / 0px 0px;
+                            // background: url("img/concept/AboutUsMissionAndVision.png") no-repeat top left / 0px 0px;
                             width: 0;
                             height: 0;
                             position: absolute;
@@ -804,7 +804,7 @@ body{
             }
             .HotTextMobile{
                 .row{
-                    background-image: url(img/background/AllPageBackgroundImage-PNG.png);
+                    background-image: url("img/background/AllPageBackgroundImage-PNG.png");
                     background-size: contain;
                     justify-content: center;
                     flex-wrap: wrap;
@@ -874,7 +874,7 @@ body{
         .Collection{
             padding-top: 168px;
             padding-bottom: 100px;
-            background-image: url(img/Collection/去背/HeightWheatFarming-opacity0.8.png);
+            background-image: url("img/Collection/去背/HeightWheatFarming-opacity0.8.png");
             background-color: rgb(255, 255, 255);
             .CollectionTitle{
                 @include GoogleFonts;
