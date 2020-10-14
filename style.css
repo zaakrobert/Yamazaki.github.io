@@ -659,7 +659,7 @@ body main .MonthlyNew .MonthlyNewTitle {
   margin-left: 6px;
   border-left: 2px solid #ec1b24;
   padding-left: 6px;
-  margin-top: 8px;
+  padding-top: 8px;
 }
 
 body main .MonthlyNew .swiper-container {
@@ -1290,6 +1290,7 @@ body main .FactoryTour .FactoryTourCards .FactoryTourCard:hover .FactoryCardText
 
 @media (max-width: 575.98px) {
   body main .FactoryTour .FactoryTourCards .FactoryTourCard:hover .FactoryCardText {
+    max-height: 320px;
     font-size: medium;
   }
 }
