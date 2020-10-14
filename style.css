@@ -35,9 +35,27 @@ body header .banner .hdBackground {
   position: relative;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1599.98px) {
+  body header .banner .hdBackground {
+    height: 900px;
+  }
+}
+
+@media (max-width: 1365.98px) {
   body header .banner .hdBackground {
     height: 768px;
+  }
+}
+
+@media (max-width: 1279.98px) {
+  body header .banner .hdBackground {
+    height: 1024px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body header .banner .hdBackground {
+    height: 568px;
   }
 }
 
@@ -50,6 +68,30 @@ body header .banner .hdBackground .hdLogo {
   z-index: 1;
 }
 
+@media (max-width: 1279.98px) {
+  body header .banner .hdBackground .hdLogo {
+    margin-top: 36%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body header .banner .hdBackground .hdLogo {
+    width: 36%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body header .banner .hdBackground .hdLogo {
+    margin-top: 36%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body header .banner .hdBackground .hdLogo {
+    margin-top: 46%;
+  }
+}
+
 body header .banner .hdBackground .hdFresh {
   width: 10%;
   position: absolute;
@@ -60,6 +102,25 @@ body header .banner .hdBackground .hdFresh {
   z-index: 1;
 }
 
+@media (max-width: 1279.98px) {
+  body header .banner .hdBackground .hdFresh {
+    margin-top: 30%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body header .banner .hdBackground .hdFresh {
+    width: 16%;
+    margin-top: 26%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body header .banner .hdBackground .hdFresh {
+    margin-top: 36%;
+  }
+}
+
 body header .banner .hdBackground .hdInstagramIcon {
   width: 4%;
   position: absolute;
@@ -68,6 +129,18 @@ body header .banner .hdBackground .hdInstagramIcon {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 1;
+}
+
+@media (max-width: 991.98px) {
+  body header .banner .hdBackground .hdInstagramIcon {
+    width: 6%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body header .banner .hdBackground .hdInstagramIcon {
+    width: 8%;
+  }
 }
 
 body main {
@@ -257,15 +330,42 @@ body main #BreadContainer .BreadBackground .effect_box21 {
 body main .Navbar {
   width: 100vw;
   background-image: url("img/NavBar/NavBar-wheat-white.png");
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 991.98px) {
+  body main .Navbar {
+    background-size: contain;
+  }
 }
 
 body main .Navbar .container {
   height: 176px;
 }
 
+@media (max-width: 991.98px) {
+  body main .Navbar .container {
+    background-size: contain;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
 @media (max-width: 1199.98px) {
   body main .Navbar .container .NavBarYamazakiLogo {
     width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body main .Navbar .container .NavBarYamazakiLogo {
+    width: 30%;
+    height: 30%;
+    padding-top: 16px;
   }
 }
 
@@ -283,6 +383,14 @@ body main .Navbar .container .NavBarBtns .navbtn {
   padding: 0;
   text-decoration: none;
   font-size: medium;
+}
+
+@media (max-width: 991.98px) {
+  body main .Navbar .container .NavBarBtns .navbtn {
+    font-size: xx-small;
+    margin: 20px 8px 0 8px;
+    height: 16.8px;
+  }
 }
 
 body main .Navbar .container .NavBarBtns .navbtn .navbtnChi {
@@ -803,8 +911,6 @@ body main .Hot .HotTitleMobile {
 }
 
 body main .Hot .HotTextMobile .row {
-  background-image: url("img/background/AllPageBackgroundImage-PNG.png");
-  background-size: contain;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -875,9 +981,35 @@ body main .Collection {
   background-color: white;
 }
 
+@media (max-width: 767.98px) {
+  body main .Collection {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: none;
+    background-color: unset;
+  }
+}
+
+body main .Collection .CollectionTitleMobile {
+  color: #ec1b24;
+  margin-left: 6px;
+  border-left: 2px solid #ec1b24;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
 body main .Collection .CollectionTitle {
   font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
   padding-bottom: 66px;
+}
+
+@media (max-width: 767.98px) {
+  body main .Collection .CollectionTitle {
+    padding-bottom: 0;
+  }
+  body main .Collection .CollectionTitle h4 {
+    display: none;
+  }
 }
 
 body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem {
@@ -897,6 +1029,12 @@ body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem 
 @media (max-width: 991.98px) {
   body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem {
     height: 260px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem {
+    height: 166px;
   }
 }
 
@@ -937,9 +1075,21 @@ body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem 
   }
 }
 
+@media (max-width: 767.98px) {
+  body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionContentName h4 {
+    font-size: 8pt;
+  }
+}
+
 body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionIMG {
   margin-top: 20px;
   width: 80%;
+}
+
+@media (max-width: 767.98px) {
+  body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionIMG {
+    margin-top: 2px;
+  }
 }
 
 body main .Collection .CollectionContent .CollectionItemsToasts .CollectionItem .CollectionIMG:hover {
@@ -964,6 +1114,12 @@ body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem 
 @media (max-width: 991.98px) {
   body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem {
     height: 186px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem {
+    height: 136px;
   }
 }
 
@@ -998,9 +1154,21 @@ body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem 
   }
 }
 
+@media (max-width: 767.98px) {
+  body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionContentName h4 {
+    font-size: 8pt;
+  }
+}
+
 body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionIMG {
   margin-top: 20px;
   width: 80%;
+}
+
+@media (max-width: 767.98px) {
+  body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionIMG {
+    margin-top: 6px;
+  }
 }
 
 body main .Collection .CollectionContent .CollectionItemsBreads .CollectionItem .CollectionIMG:hover {
@@ -1013,9 +1181,33 @@ body main .FactoryTour {
   padding-bottom: 100px;
 }
 
+@media (max-width: 767.98px) {
+  body main .FactoryTour {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+body main .FactoryTour .FactoryTourTitleMobile {
+  color: #ec1b24;
+  margin-left: 6px;
+  border-left: 2px solid #ec1b24;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
 body main .FactoryTour .FactoryTourTitle {
   font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
   padding-bottom: 66px;
+}
+
+@media (max-width: 767.98px) {
+  body main .FactoryTour .FactoryTourTitle {
+    padding-bottom: 0;
+  }
+  body main .FactoryTour .FactoryTourTitle h4 {
+    display: none;
+  }
 }
 
 body main .FactoryTour .FactoryTourCards .FactoryTourCard {
@@ -1029,6 +1221,12 @@ body main .FactoryTour .FactoryTourCards .FactoryTourCard {
 @media (max-width: 991.98px) {
   body main .FactoryTour .FactoryTourCards .FactoryTourCard {
     height: 168px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body main .FactoryTour .FactoryTourCards .FactoryTourCard {
+    height: 206px;
   }
 }
 
@@ -1046,6 +1244,12 @@ body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardTitle {
 @media (max-width: 991.98px) {
   body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardTitle {
     font-size: 8pt;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardTitle {
+    font-size: 12pt;
   }
 }
 
@@ -1084,14 +1288,44 @@ body main .FactoryTour .FactoryTourCards .FactoryTourCard:hover .FactoryCardText
   }
 }
 
+@media (max-width: 575.98px) {
+  body main .FactoryTour .FactoryTourCards .FactoryTourCard:hover .FactoryCardText {
+    font-size: medium;
+  }
+}
+
 body main .Safety {
   padding-top: 168px;
   padding-bottom: 100px;
 }
 
+@media (max-width: 767.98px) {
+  body main .Safety {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+body main .Safety .SafetyTitleMobile {
+  color: #ec1b24;
+  margin-left: 6px;
+  border-left: 2px solid #ec1b24;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
 body main .Safety .SafetyTitle {
   font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
   padding-bottom: 66px;
+}
+
+@media (max-width: 767.98px) {
+  body main .Safety .SafetyTitle {
+    padding-bottom: 0px;
+  }
+  body main .Safety .SafetyTitle h4 {
+    display: none;
+  }
 }
 
 body main .Safety .SafetyContent .SafetyText {
@@ -1105,9 +1339,30 @@ body main .Contact {
   padding-bottom: 66px;
 }
 
+@media (max-width: 767.98px) {
+  body main .Contact {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+body main .Contact .ContactTitleMobile {
+  color: #ec1b24;
+  margin-left: 6px;
+  border-left: 2px solid #ec1b24;
+  padding-left: 6px;
+  margin-top: 8px;
+}
+
 body main .Contact .ContactTitle {
   font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
   padding-bottom: 26px;
+}
+
+@media (max-width: 767.98px) {
+  body main .Contact .ContactTitle h4 {
+    display: none;
+  }
 }
 
 body main .Contact .ContactContent {
@@ -1134,6 +1389,12 @@ body main .Contact .ContactContent .ContactLocationsTitle {
   padding: 38px 0 26px 0;
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  body main .Contact .ContactContent .ContactLocationsTitle {
+    display: none;
+  }
 }
 
 body main .Contact .ContactContent .ContactLocations {

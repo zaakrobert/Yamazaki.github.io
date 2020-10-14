@@ -191,11 +191,11 @@
             </div>
         </div>
 
-        <nav class="Navbar d-none d-sm-block sticky-top">
+        <nav class="Navbar d-none d-md-block sticky-top">
             <div class="container w-100 pb-5">
                 <!-- <img class="NavBarBackground" src="img/NavBar/NavBar-wheat-white.png" alt=""> -->
                 <a href="#banner" class="NavBarYamazakiLogo row mx-0 w-lg-100 justify-content-center">
-                    <img class="col-3 my-lg-3 px-lg-5" src="img/header/Logo - Yamazaki.png" alt="">
+                    <img class="col-lg-3 my-lg-3 px-lg-5" src="img/header/Logo - Yamazaki.png" alt="">
                 </a>
                 <div class="NavBarBtns row mx-0  w-100 px-md-0 px-lg-5">
                         <a href="#anchor1" class="col navbtn">
@@ -457,11 +457,11 @@
 
         </div>
 
-        <div class="gapline d-block d-sm-none"></div>
+        <div class="gapline d-block d-md-none"></div>
 
         <div class="Hot">
 
-            <div class="d-none d-sm-block HotPC container">
+            <div class="HotPC d-none d-md-block container">
                 <div class="HotTitle d-flex justify-content-center">
                     <h4>HOT</h4>
                 </div>
@@ -523,15 +523,14 @@
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
             </div>
 
-            <div class="HotTitleMobile d-block d-sm-none" data-aos="fade-left">
+            <div class="HotTitleMobile d-block d-md-none" data-aos="fade-left">
                 <h6>熱賣商品</h6>
             </div>
-            <div class="HotTextMobile container d-block d-sm-none">
-                <div class="row  mx-0 ">
+            <div class="HotTextMobile container d-block d-md-none">
+                <div class="row  mx-0 justify-content-center">
                     <div class="col">
                         <div class="swiper2-container">
                             <div class="swiper-wrapper">
@@ -585,16 +584,23 @@
                     </div>
                 </div>
             </div>
-            <div class="gapline d-block d-sm-none"></div>
-
             
         </div>
 
+        <div class="gapline d-block d-md-none"></div>
 
         <div id="anchor3" class="Collection">
-            <div class="CollectionTitle HotTitle d-flex justify-content-center">
+
+            <!-- MobileTitle -->
+            <div class="CollectionTitleMobile d-block d-md-none" data-aos="fade-left">
+                <h6>精選商品</h6>
+            </div>
+            <!-- MobileTitle -->
+
+            <div class="CollectionTitle d-flex justify-content-center">
                 <h4>Collection</h4>
             </div>
+
             <div class="CollectionContent container">
                 <div class="CollectionItemsToasts row row-cols-4">
                     <div class="CollectionItem col" data-aos="zoom-in">
@@ -715,107 +721,127 @@
             </div>
         </div>
 
-        <div id="anchor4" class="FactoryTour container">
-            <div class="FactoryTourTitle HotTitle d-flex justify-content-center">
-                <h4>FactoryTour</h4>
+        <div class="gapline d-block d-md-none"></div>
+
+        <div id="anchor4" class="FactoryTour">
+
+            <!-- MobileTitle -->
+            <div class="FactoryTourTitleMobile d-block d-md-none" data-aos="fade-left">
+                <h6>工廠參觀</h6>
             </div>
-            <div class="FactoryTourCards row row-cols-4">
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem1_photo.png" alt="">
-                    <div class="FactoryCardTitle">1. 徹底的衛生管理</div>
-                    <div class="FactoryCardText">
-                        Yamazaki引入了基於AIB / US麵包研究所的AIB國際檢驗綜合標準的指導和審核系統，並每天認真管理衛生。在製作麵包之前，製作麵包的人們要換成乾淨的製服，進行徹底的檢查以防止細菌和污垢進入，並在製作麵包之前徹底洗手。
-                    </div>
+            <!-- MobileTitle -->
+
+            <div class="FactoryTourContainer container">
+                <div class="FactoryTourTitle HotTitle d-flex justify-content-center">
+                    <h4>FactoryTour</h4>
                 </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem2_photo.png" alt="">
-                    <div class="FactoryCardTitle">2. 混合原料</div>
-                    <div class="FactoryCardText">
-                        製作美味麵包涉及許多過程。首先，我們將製作中田。中粒種子是麵包麵團的基礎。將麵粉從筒倉（麵粉存儲）發送到稱為混合機的機器中，以混合原料，將水和麵包酵母添加到發酵麵包中，然後均勻混合。
+                <div class="FactoryTourCards row row-cols-2 row-cols-sm-3 row-cols-md-4">
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem1_photo.png" alt="">
+                        <div class="FactoryCardTitle">1. 徹底的衛生管理</div>
+                        <div class="FactoryCardText">
+                            Yamazaki引入了基於AIB / US麵包研究所的AIB國際檢驗綜合標準的指導和審核系統，並每天認真管理衛生。在製作麵包之前，製作麵包的人們要換成乾淨的製服，進行徹底的檢查以防止細菌和污垢進入，並在製作麵包之前徹底洗手。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem3_photo.png" alt="">
-                    <div class="FactoryCardTitle">3. 四小時以上的發酵</div>
-                    <div class="FactoryCardText">
-                        充分混合的中等種子被轉移到一個大盒子中並發酵。製作麵包大約需要8個小時，但其中有一半以上的時間都花在了發酵上。如果將其放置在最適合控制28°C溫度和82％濕度發酵的房間中約4個半小時，那麼麵包師的酵母會產生二氧化碳氣體，從而導致其大大膨脹。此外，產生了麵包特有的風味。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem2_photo.png" alt="">
+                        <div class="FactoryCardTitle">2. 混合原料</div>
+                        <div class="FactoryCardText">
+                            製作美味麵包涉及許多過程。首先，我們將製作中田。中粒種子是麵包麵團的基礎。將麵粉從筒倉（麵粉存儲）發送到稱為混合機的機器中，以混合原料，將水和麵包酵母添加到發酵麵包中，然後均勻混合。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem4_photo.png" alt="">
-                    <div class="FactoryCardTitle">4. 加入鹽、黃油調味</div>
-                    <div class="FactoryCardText">
-                        將麵粉和水加到發酵的中等種子中，加鹽和黃油調味，然後再次用攪拌機揉捏成麵包麵團。將所得麵團轉移到一個大盒子中，靜置20-30分鐘。其中一盒是1200條麵包。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem3_photo.png" alt="">
+                        <div class="FactoryCardTitle">3. 四小時以上的發酵</div>
+                        <div class="FactoryCardText">
+                            充分混合的中等種子被轉移到一個大盒子中並發酵。製作麵包大約需要8個小時，但其中有一半以上的時間都花在了發酵上。如果將其放置在最適合控制28°C溫度和82％濕度發酵的房間中約4個半小時，那麼麵包師的酵母會產生二氧化碳氣體，從而導致其大大膨脹。此外，產生了麵包特有的風味。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem5_photo.png" alt="">
-                    <div class="FactoryCardTitle">5. 精密機器分割等分的麵團</div>
-                    <div class="FactoryCardText">
-                        使用稱為分隔線的機器將完成的麵團切成精確重量的塊。切成小塊的麵團通過稱為圓角機的機器滾動。通過使形狀圓而均勻，發酵產生的二氧化碳將不會散發出去。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem4_photo.png" alt="">
+                        <div class="FactoryCardTitle">4. 加入鹽、黃油調味</div>
+                        <div class="FactoryCardText">
+                            將麵粉和水加到發酵的中等種子中，加鹽和黃油調味，然後再次用攪拌機揉捏成麵包麵團。將所得麵團轉移到一個大盒子中，靜置20-30分鐘。其中一盒是1200條麵包。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem6_photo.png" alt="">
-                    <div class="FactoryCardTitle">6. 靜置麵團進行二次發酵</div>
-                    <div class="FactoryCardText">
-                        麵團揉成一團後，用稱為拉頂機的機器移動麵團，靜置麵團，然後再次發酵。之後，使用稱為Mulder的機器將麵團脫氣，同時壓出麵團。這種脫氣意味著使二氧化碳氣泡更小並增加氣泡數。切麵包時，將其中的氣泡微調至一定大小，以製作出美味的麵包。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem5_photo.png" alt="">
+                        <div class="FactoryCardTitle">5. 精密機器分割等分的麵團</div>
+                        <div class="FactoryCardText">
+                            使用稱為分隔線的機器將完成的麵團切成精確重量的塊。切成小塊的麵團通過稱為圓角機的機器滾動。通過使形狀圓而均勻，發酵產生的二氧化碳將不會散發出去。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem7_photo.png" alt="">
-                    <div class="FactoryCardTitle">7. 摺疊成Ｍ自行裝盒</div>
-                    <div class="FactoryCardText">
-                        像棍棒一樣將散佈較細的麵包麵團包起來，將其折疊成M形，然後將三塊裝在一個方形盒子中。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem6_photo.png" alt="">
+                        <div class="FactoryCardTitle">6. 靜置麵團進行二次發酵</div>
+                        <div class="FactoryCardText">
+                            麵團揉成一團後，用稱為拉頂機的機器移動麵團，靜置麵團，然後再次發酵。之後，使用稱為Mulder的機器將麵團脫氣，同時壓出麵團。這種脫氣意味著使二氧化碳氣泡更小並增加氣泡數。切麵包時，將其中的氣泡微調至一定大小，以製作出美味的麵包。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem8_photo.png" alt="">
-                    <div class="FactoryCardTitle">8. 三次發酵40~50分鐘</div>
-                    <div class="FactoryCardText">
-                        最後，將裝在箱子中的麵團發酵40至50分鐘。通過在烘烤之前再次發酵，它會變成柔軟而濕潤的麵包。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem7_photo.png" alt="">
+                        <div class="FactoryCardTitle">7. 摺疊成Ｍ自行裝盒</div>
+                        <div class="FactoryCardText">
+                            像棍棒一樣將散佈較細的麵包麵團包起來，將其折疊成M形，然後將三塊裝在一個方形盒子中。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem9_photo.png" alt="">
-                    <div class="FactoryCardTitle">9. 於200度烘烤30分鐘</div>
-                    <div class="FactoryCardText">
-                        蓋好外殼，放入烤箱中，然後在約200度的溫度下烘烤約30分鐘。麵團中包含發酵過程中產生的大量二氧化碳氣泡。通過加熱，該二氧化碳氣體熱膨脹，麵包進一步膨脹並且其體積增加。烤製的麵包具有麵包特有的鹹味和麵包色。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem8_photo.png" alt="">
+                        <div class="FactoryCardTitle">8. 三次發酵40~50分鐘</div>
+                        <div class="FactoryCardText">
+                            最後，將裝在箱子中的麵團發酵40至50分鐘。通過在烘烤之前再次發酵，它會變成柔軟而濕潤的麵包。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem10_photo.png" alt="">
-                    <div class="FactoryCardTitle">10. 靜置冷卻1.5小時</div>
-                    <div class="FactoryCardText">
-                        烘烤後立即麵包變軟，需要冷卻，因為如果立即切成薄片，麵包會變形。從箱子中取出烤好的麵包，然後將其移至稱為麵包冷卻器的大房間。如果快速冷卻，麵包將收縮，因此使其緩慢冷卻約一個半小時​​。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem9_photo.png" alt="">
+                        <div class="FactoryCardTitle">9. 於200度烘烤30分鐘</div>
+                        <div class="FactoryCardText">
+                            蓋好外殼，放入烤箱中，然後在約200度的溫度下烘烤約30分鐘。麵團中包含發酵過程中產生的大量二氧化碳氣泡。通過加熱，該二氧化碳氣體熱膨脹，麵包進一步膨脹並且其體積增加。烤製的麵包具有麵包特有的鹹味和麵包色。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem11_photo.png" alt="">
-                    <div class="FactoryCardTitle">11. 切片裝袋並檢測</div>
-                    <div class="FactoryCardText">
-                        將新鮮的麵包切成小塊，用切片機即可輕鬆食用。然後，將每個麵包裝在袋子中，密封，最後用金屬檢測器檢查。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem10_photo.png" alt="">
+                        <div class="FactoryCardTitle">10. 靜置冷卻1.5小時</div>
+                        <div class="FactoryCardText">
+                            烘烤後立即麵包變軟，需要冷卻，因為如果立即切成薄片，麵包會變形。從箱子中取出烤好的麵包，然後將其移至稱為麵包冷卻器的大房間。如果快速冷卻，麵包將收縮，因此使其緩慢冷卻約一個半小時​​。
+                        </div>
                     </div>
-                </div>
-                <div class="FactoryTourCard col">
-                    <img src="img/Factory Tour/Aitem12_photo.png" alt="">
-                    <div class="FactoryCardTitle">12. 於清晨配送新鮮麵包</div>
-                    <div class="FactoryCardText">
-                        製成的麵包按超市和便利店等商店分類，並在清晨離開工廠。
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem11_photo.png" alt="">
+                        <div class="FactoryCardTitle">11. 切片裝袋並檢測</div>
+                        <div class="FactoryCardText">
+                            將新鮮的麵包切成小塊，用切片機即可輕鬆食用。然後，將每個麵包裝在袋子中，密封，最後用金屬檢測器檢查。
+                        </div>
+                    </div>
+                    <div class="FactoryTourCard col">
+                        <img src="img/Factory Tour/Aitem12_photo.png" alt="">
+                        <div class="FactoryCardTitle">12. 於清晨配送新鮮麵包</div>
+                        <div class="FactoryCardText">
+                            製成的麵包按超市和便利店等商店分類，並在清晨離開工廠。
+                        </div>
                     </div>
                 </div>
             </div>
             
         </div>
 
+        <div class="gapline d-block d-md-none"></div>
+
         <div id="anchor5" class="Safety">
+
+            <!-- MobileTitle -->
+            <div class="SafetyTitleMobile d-block d-md-none" data-aos="fade-left">
+                <h6>食品衛生安全</h6>
+            </div>
+            <!-- MobileTitle -->
+
             <div class="SafetyTitle d-flex justify-content-center">
                 <h4>Safety</h4>
             </div>
             <div class="SafetyContent container">
                 <div class="SafetyIMGS row row-cols-2 justify-content-center">
-                    <img class="col-4" src="img/safety/safety_10.jpg" alt="" data-aos="zoom-in-right">
-                    <img class="col-4" src="img/safety/safety_11.jpg" alt="" data-aos="zoom-in-left" data-aos-delay="200">
+                    <img class="col-6 col-md-4" src="img/safety/safety_10.jpg" alt="" data-aos="zoom-in-right">
+                    <img class="col-6 col-md-4" src="img/safety/safety_11.jpg" alt="" data-aos="zoom-in-left" data-aos-delay="200">
                 </div>
                 <div class="SafetyText">
                     <p>
@@ -828,7 +854,16 @@
             </div>
         </div>
 
+        <div class="gapline d-block d-md-none"></div>
+
         <div id="anchor6" class="Contact">
+
+            <!-- MobileTitle -->
+            <div class="ContactTitleMobile d-block d-md-none" data-aos="fade-left">
+                <h6>聯絡我們</h6>
+            </div>
+            <!-- MobileTitle -->
+
             <div class="ContactTitle d-flex justify-content-center">
                 <h4>Contact</h4>
             </div>
@@ -885,9 +920,6 @@
                 </div>
             </div>
         </nav> -->
-
-
- 
 
     </main>
 

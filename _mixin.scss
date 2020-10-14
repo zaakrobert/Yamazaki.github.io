@@ -19,3 +19,11 @@
 @mixin BreadBackgroundStyle {
     position: absolute;
 }
+
+@mixin MobileTitle {
+    color: $yamazakired;
+    margin-left: 6px;
+    border-left: 2px solid $yamazakired;
+    padding-left: 6px;
+    margin-top: 8px;
+}

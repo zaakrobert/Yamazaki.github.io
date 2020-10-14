@@ -25,8 +25,18 @@ body{
                 background-size: cover;
                 background-position: center;
 
-                @media (max-width: 1199.98px) {
+                @media (max-width: 1599.98px) {
+                    height: 900px;
+                }
+
+                @media (max-width: 1365.98px) {
                     height: 768px;
+                }
+                @media (max-width: 1279.98px) {
+                    height: 1024px;
+                }
+                @media (max-width: 767.98px) {
+                    height: 568px;
                 }
                 
                 z-index: 0;
@@ -46,8 +56,21 @@ body{
                     // left: 50%;
                     // transform: translate( - 50%, - 50%);
                     z-index: 1;
-    
                     // @include hdLogoST
+
+                    @media (max-width: 1279.98px) {
+                        margin-top: 36%;
+                    }
+                    @media (max-width: 991.98px) {
+                        width: 36%;
+                    }
+                    @media (max-width: 767.98px) {
+                        margin-top: 36%;
+                    }
+                    @media (max-width: 575.98px) {
+                        margin-top: 46%;
+                    }
+
                 }
     
                 .hdFresh{
@@ -58,6 +81,17 @@ body{
                     left: 66%;
                     transform: translate( - 50%, - 50%);
                     z-index: 1;
+
+                    @media (max-width: 1279.98px) {
+                        margin-top: 30%;
+                    }
+                    @media (max-width: 991.98px) {
+                        width: 16%;
+                        margin-top: 26%;
+                    }
+                    @media (max-width: 575.98px) {
+                        margin-top: 36%;
+                    }
                 }
     
                 .hdInstagramIcon{
@@ -68,6 +102,12 @@ body{
                     left: 76%;
                     transform: translate( - 50%, - 50%);
                     z-index: 1;
+                    @media (max-width: 991.98px) {
+                        width: 6%;
+                    }
+                    @media (max-width: 767.98px) {
+                        width: 8%;
+                    }
                 }
             }
         }
@@ -231,9 +271,25 @@ body{
 
             width: 100vw;
             background-image: url("img/NavBar/NavBar-wheat-white.png");
+            background-position-x: right;
+            background-repeat: no-repeat;
+
+                @media (max-width: 991.98px) {
+                    background-size: contain;
+                }
+
+            // @media (max-width: 767.98px) {
+            //     height: ;
+            // }
 
             .container{
                 height: 176px;
+
+                @media (max-width: 991.98px) {
+                    background-size: contain;
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
 
                 // .NavBarBackground{
                 //     width: 100%;
@@ -244,6 +300,11 @@ body{
                 .NavBarYamazakiLogo{
                     @media (max-width: 1199.98px) {
                         width: 100%;
+                    }
+                    @media (max-width: 991.98px) {
+                        width: 30%;
+                        height: 30%;
+                        padding-top: 16px;
                     }
 
                 }
@@ -260,6 +321,12 @@ body{
                         padding: 0;
                         text-decoration: none;
                         font-size: medium;
+                        @media (max-width: 991.98px) {
+                            font-size: xx-small;
+                            // height: 26px;
+                            margin: 20px 8px 0 8px;
+                            height: 16.8px;
+                        }
 
                         .navbtnChi{
                             display: none;
@@ -491,12 +558,7 @@ body{
             }
 
             .MonthlyNewTitle{
-                color: $yamazakired;
-                margin-left: 6px;
-                border-left: 2px solid $yamazakired;
-                padding-left: 6px;
-                margin-top: 8px;
-
+                @include MobileTitle;
             }
             // #carouselExampleIndicators{
 
@@ -665,11 +727,7 @@ body{
             /////////////////////// 以下為原本手機版
 
             .ComingsoonTitleMobile{
-                color: $yamazakired;
-                margin-left: 6px;
-                border-left: 2px solid $yamazakired;
-                padding-left: 6px;
-                margin-top: 8px;
+                @include MobileTitle;
             }
             .ComingsoonMobile{
                 max-width: 100%;
@@ -796,16 +854,10 @@ body{
             }
 
             .HotTitleMobile{
-                color: $yamazakired;
-                margin-left: 6px;
-                border-left: 2px solid $yamazakired;
-                padding-left: 6px;
-                margin-top: 8px;
+                @include MobileTitle;
             }
             .HotTextMobile{
                 .row{
-                    background-image: url("img/background/AllPageBackgroundImage-PNG.png");
-                    background-size: contain;
                     justify-content: center;
                     flex-wrap: wrap;
 
@@ -876,9 +928,28 @@ body{
             padding-bottom: 100px;
             background-image: url("img/Collection/去背/HeightWheatFarming-opacity0.8.png");
             background-color: rgb(255, 255, 255);
+
+            @media (max-width: 767.98px) {
+                padding-top: 0;
+                padding-bottom: 0;
+                background-image: none;
+                background-color: unset;
+            }
+
+            .CollectionTitleMobile{
+                @include MobileTitle;
+            }
+
             .CollectionTitle{
                 @include GoogleFonts;
                 padding-bottom: 66px;
+
+                @media (max-width: 767.98px) {
+                    padding-bottom: 0;
+                    h4{
+                        display: none;
+                    }
+                }
             }
             .CollectionContent{
                 .CollectionItemsToasts{
@@ -889,6 +960,9 @@ body{
                         align-items: center;
                         @media (max-width: 991.98px) {
                             height: 260px;
+                        }
+                        @media (max-width: 767.98px) {
+                            height: 166px;
                         }
 
                         .CollectionContentName{
@@ -915,12 +989,18 @@ body{
                                 @media (max-width: 991.98px) {
                                     font-size: 12pt;
                                 }
+                                @media (max-width: 767.98px) {
+                                    font-size: 8pt;
+                                }
                             }
                         }
 
                         .CollectionIMG{
                             margin-top: 20px;
                             width: 80%;
+                            @media (max-width: 767.98px) {
+                                margin-top: 2px;
+                            }
 
                             &:hover{
                                 transform: rotate(15deg);
@@ -936,6 +1016,9 @@ body{
                         align-items: center;
                         @media (max-width: 991.98px) {
                             height: 186px;
+                        }
+                        @media (max-width: 767.98px) {
+                            height: 136px;
                         }
 
                         .CollectionContentName{
@@ -959,11 +1042,17 @@ body{
                                 @media (max-width: 991.98px) {
                                     font-size: 12pt;
                                 }
+                                @media (max-width: 767.98px) {
+                                    font-size: 8pt;
+                                }
                             }
                         }
                         .CollectionIMG{
                             margin-top: 20px;
                             width: 80%;
+                            @media (max-width: 767.98px) {
+                                margin-top: 6px;
+                            }
 
                             &:hover{
                                 transform: rotate(15deg);
@@ -977,10 +1066,25 @@ body{
         .FactoryTour{
             padding-top: 168px;
             padding-bottom: 100px;
+            @media (max-width: 767.98px) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .FactoryTourTitleMobile{
+                @include MobileTitle;
+            }
 
             .FactoryTourTitle{
                 @include GoogleFonts;
                 padding-bottom: 66px;
+
+                @media (max-width: 767.98px) {
+                    padding-bottom: 0;
+                    h4{
+                        display: none;
+                    }
+                }
             }
 
             .FactoryTourCards{
@@ -995,6 +1099,9 @@ body{
                     @media (max-width: 991.98px) {
                         height: 168px;
                     }
+                    @media (max-width: 575.98px) {
+                        height: 206px;
+                    }
 
                     img{
                         width: 100%;
@@ -1006,6 +1113,9 @@ body{
                         color: white;
                         @media (max-width: 991.98px) {
                             font-size: 8pt;
+                        }
+                        @media (max-width: 575.98px) {
+                            font-size: 12pt;
                         }
                     }
 
@@ -1037,6 +1147,9 @@ body{
                             @media (max-width: 991.98px) {
                                 font-size: x-small;
                             }
+                            @media (max-width: 575.98px) {
+                                font-size: medium;
+                            }
                         }
                     }
                 }
@@ -1046,13 +1159,29 @@ body{
         .Safety{
             padding-top: 168px;
             padding-bottom: 100px;
+            @media (max-width: 767.98px) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .SafetyTitleMobile{
+                @include MobileTitle;
+            }
 
             .SafetyTitle{
                 @include GoogleFonts;
                 padding-bottom: 66px;
+
+                @media (max-width: 767.98px) {
+                    padding-bottom: 0px;
+                    h4{
+                        display: none;
+                    }
+                }
             }
 
             .SafetyContent{
+
                 .SafetyText{
                     @include GoogleFonts;
                     padding: 4% 10%;
@@ -1064,10 +1193,24 @@ body{
         .Contact{
             padding-top: 168px;
             padding-bottom: 66px;
+            @media (max-width: 767.98px) {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+            .ContactTitleMobile{
+                @include MobileTitle;
+            }
 
             .ContactTitle{
                 @include GoogleFonts;
                 padding-bottom: 26px;
+
+                @media (max-width: 767.98px) {
+                    h4{
+                        display: none;
+                    }
+                }
             }
             .ContactContent{
                 display: flex;
@@ -1085,6 +1228,9 @@ body{
                     padding: 38px 0 26px 0;
                     width: 100%;
                     text-align: center;
+                    @media (max-width: 767.98px) {
+                            display: none;
+                    }
                 }
 
                 .ContactLocations{
