@@ -928,8 +928,14 @@ body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-wrapper .swip
   width: 100%;
 }
 
-body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-wrapper .swiper-button-next {
-  color: #ec1b24;
+body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-button-next,
+body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-button-prev {
+  color: orange;
+}
+
+body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-pagination .swiper-pagination-bullet,
+body main .Hot .HotTextMobile .row .col .swiper2-container .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: orange;
 }
 
 body main .Hot .HotTextMobile .row .col-8 {
@@ -1249,7 +1255,7 @@ body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardTitle {
 
 @media (max-width: 575.98px) {
   body main .FactoryTour .FactoryTourCards .FactoryTourCard .FactoryCardTitle {
-    font-size: 12pt;
+    font-size: 10pt;
   }
 }
 

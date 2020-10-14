@@ -876,8 +876,15 @@ body{
                                         width: 100%;
                                     }
                                 }
-                                .swiper-button-next{
-                                    color: $yamazakired;
+                            }
+                            .swiper-button-next,
+                            .swiper-button-prev{
+                                color: orange;
+                            }
+                            .swiper-pagination{
+                                .swiper-pagination-bullet,
+                                .swiper-pagination-bullet-active{
+                                    background-color: orange;
                                 }
                             }
                         }
@@ -1119,7 +1126,7 @@ body{
                             font-size: 8pt;
                         }
                         @media (max-width: 575.98px) {
-                            font-size: 12pt;
+                            font-size: 10pt;
                         }
                     }
 
