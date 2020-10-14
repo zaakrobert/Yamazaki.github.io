@@ -145,6 +145,7 @@ body header .banner .hdBackground .hdInstagramIcon {
 
 body main {
   position: relative;
+  /* ----------------------------手機導覽列-------------------------------------- */
 }
 
 body main #BreadContainer {
@@ -412,6 +413,53 @@ body main .Navbar .container .NavBarBtns .navbtn :hover .navbtnChi {
   display: block !important;
 }
 
+body main .navbar-dark {
+  background-color: wheat;
+}
+
+body main .navbar-dark .navbar-brand .mr-2 {
+  width: 28%;
+}
+
+@media (max-width: 575.98px) {
+  body main .navbar-dark .navbar-brand .mr-2 {
+    width: 36%;
+  }
+}
+
+body main .navbar-dark .navbar-toggler {
+  position: absolute;
+  right: 5%;
+}
+
+body main .navbar-dark .navbar-collapse .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .navbar-dark .navbar-collapse .navbar-nav .nav-item {
+  width: 260px;
+}
+
+body main .navbar-dark .navbar-collapse .navbar-nav .nav-item .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .navbar-dark .navbar-collapse .navbar-nav .nav-item .nav-link .NavText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #ec1b24 !important;
+}
+
 body main .Concept {
   padding-bottom: 100px;
   position: relative;
@@ -427,6 +475,12 @@ body main .Concept .ConceptStyle .ConceptStyleTitle {
   padding-bottom: 42px;
   text-align: center;
   font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+  body main .Concept .ConceptStyle .ConceptStyleTitle {
+    padding-top: 42px;
+  }
 }
 
 body main .Concept .ConceptStyle .ConceptStyleText {
