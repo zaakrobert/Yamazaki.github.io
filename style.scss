@@ -324,45 +324,45 @@ body{
         }
             /* ----------------------------手機導覽列-------------------------------------- */
 
-    .navbar-dark{
-        background-color: $creamcolor;
+        .navbar-dark{
+            background-color: $creamcolor;
 
-        .navbar-brand{
-            .mr-2{
-                width: 28%;
+            .navbar-brand{
+                .mr-2{
+                    width: 28%;
 
-                @media (max-width: 575.98px) {
-                    width: 36%;
+                    @media (max-width: 575.98px) {
+                        width: 36%;
+                    }
                 }
             }
-        }
 
-        .navbar-toggler{
-            position: absolute;
-            right: 5%;
-        }
+            .navbar-toggler{
+                position: absolute;
+                right: 5%;
+            }
 
-        .navbar-collapse{
-            .navbar-nav{
-                display: flex;
+            .navbar-collapse{
+                .navbar-nav{
+                    display: flex;
 
-                .nav-item{
-                    width: 260px;
+                    .nav-item{
+                        width: 260px;
 
-                    .nav-link{
-                        display: flex;
-
-                        .NavText{
+                        .nav-link{
                             display: flex;
-                            flex-wrap: nowrap;
-                            justify-content: space-between;
-                            color: $yamazakired !important;
+
+                            .NavText{
+                                display: flex;
+                                flex-wrap: nowrap;
+                                justify-content: space-between;
+                                color: $yamazakired !important;
+                            }
                         }
                     }
                 }
             }
         }
-    }
 
         .Concept{
             padding-bottom: 100px;
@@ -569,9 +569,6 @@ body{
                 }
             }
 
-            #anchor2-2{
-                
-            }
             .MonthlyNewTitle{
                 color: $yamazakired;
                 margin-left: 6px;
