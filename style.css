@@ -356,6 +356,10 @@ body main .Navbar .container {
   }
 }
 
+body main .Navbar .container .NavBarYamazakiLogo .YAMAZAKILOGO {
+  width: 100%;
+}
+
 @media (max-width: 1199.98px) {
   body main .Navbar .container .NavBarYamazakiLogo {
     width: 100%;
