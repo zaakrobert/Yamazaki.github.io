@@ -1181,6 +1181,11 @@ body{
             }
 
             .SafetyContent{
+                
+                .SafetyIMG{
+                    width: 100%;
+                }
+
                 .SafetyText{
                     @include GoogleFonts;
                     padding: 4% 10%;

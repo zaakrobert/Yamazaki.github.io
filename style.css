@@ -1393,6 +1393,10 @@ body main .Safety .SafetyTitle {
   }
 }
 
+body main .Safety .SafetyContent .SafetyIMG {
+  width: 100%;
+}
+
 body main .Safety .SafetyContent .SafetyText {
   font-family: 'Carrois Gothic', 'Noto Sans TC', sans-serif;
   padding: 4% 10%;
