@@ -896,9 +896,13 @@ body{
                                         height: 260px;
                                         background-color: wheat;
                                         border-radius: 50%;
-        
+
+
                                         img{
                                             width: 106%;
+                                            @media (max-width: 767.98px) {
+                                                width: 80%;
+                                            }
                                         }
                                     }
                                 }
