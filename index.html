@@ -107,7 +107,7 @@
     
     <header>
         <div class="hidden">
-            <script type="text/javascript">
+            <!-- <script type="text/javascript">
                     if (document.images) {
                         img1 = new Image();
                         img2 = new Image();
@@ -118,6 +118,21 @@
                         img3.src = "img/header/Fresh.png";
                         img4.src = "img/header/IGlogo.png";
                     }
+            </script> -->
+                <script type="text/javascript">
+                    var images = new Array()
+                    function preload() {
+                        for (i = 0; i < preload.arguments.length; i++) {
+                            images[i] = new Image()
+                            images[i].src = preload.arguments[i]
+                        }
+                    }
+                    preload(
+                        "img/header/country-white-bread2.jpg",
+                        "img/header/Logo - Yamazaki.png",
+                        "img/header/Fresh.png",
+                        "img/header/IGlogo.png"
+                    )
             </script>
         </div>
         <div id="banner" class="banner">
